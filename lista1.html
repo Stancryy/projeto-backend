@@ -11,7 +11,7 @@
 <div>
   <h2>1. Valor da Compra</h2>
   <input type="number" id="qtdCadernos" placeholder="Quantidade de cadernos">
-  <button>Calcular</button>
+  <button onclick="calcularEx1()">Calcular</button>
   <div id="res1"></div>
 </div>
 
@@ -20,7 +20,7 @@
 <div>
   <h2>2. Lucro Venda</h2>
   <input type="number" id="qtdCamisetas" placeholder="Quantidade de camisetas">
-  <button>Calcular</button>
+  <button onclick="calcularEx2()">Calcular</button>
   <div id="res2"></div>
 </div>
 
@@ -29,7 +29,7 @@
 <div>
   <h2>3. Desconto 10%</h2>
   <input type="number" id="precoOriginal" placeholder="Preço original" step="0.01">
-  <button>Calcular</button>
+  <button onclick="calcularEx3()">Calcular</button>
   <div id="res3"></div>
 </div>
 
@@ -38,7 +38,7 @@
 <div>
   <h2>4. Juros Simples</h2>
   <input type="number" id="mesesJS" placeholder="Número de meses">
-  <button>Calcular</button>
+  <button onclick="calcularEx4()">Calcular</button>
   <div id="res4"></div>
 </div>
 
@@ -47,7 +47,7 @@
 <div>
   <h2>5. Comissão Vendedor</h2>
   <input type="number" id="totalVendas" placeholder="Total de vendas no mês" step="0.01">
-  <button>Calcular</button>
+  <button onclick="calcularEx5()">Calcular</button>
   <div id="res5"></div>
 </div>
 
@@ -62,7 +62,7 @@
   <input type="number" id="dia5" placeholder="Vendas Dia 5" step="0.01">
   <input type="number" id="dia6" placeholder="Vendas Dia 6" step="0.01">
   <input type="number" id="dia7" placeholder="Vendas Dia 7" step="0.01">
-  <button>Calcular</button>
+  <button onclick="calcularEx6()">Calcular</button>
   <div id="res6"></div>
 </div>
 
@@ -71,7 +71,7 @@
 <div>
   <h2>7. Controle Estoque</h2>
   <input type="number" id="qtdVendidaEstoque" placeholder="Quantidade vendida">
-  <button>Calcular</button>
+  <button onclick="calcularEx7()">Calcular</button>
   <div id="res7"></div>
 </div>
 
@@ -80,7 +80,7 @@
 <div>
   <h2>8. Aumento 15%</h2>
   <input type="number" id="precoAtual" placeholder="Preço atual" step="0.01">
-  <button>Calcular</button>
+  <button onclick="calcularEx8()">Calcular</button>
   <div id="res8"></div>
 </div>
 
@@ -96,7 +96,7 @@
     <option value="4">4x</option>
     <option value="5" selected>5x</option>
   </select>
-  <button>Calcular</button>
+  <button onclick="calcularEx9()">Calcular</button>
   <div id="res9"></div>
 </div>
 
@@ -106,9 +106,10 @@
   <h2>10. Juros Compostos</h2>
   <input type="number" id="valorInicialJC" placeholder="Valor inicial" step="0.01">
   <input type="number" id="mesesJC" placeholder="Número de meses">
-  <button>Calcular</button>
+  <button onclick="calcularEx10()">Calcular</button>
   <div id="res10"></div>
 </div>
 
+<script src="script.js"></script>
 </body>
 </html>

@@ -1,4 +1,3 @@
-/* ===== Reset e Base ===== */
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +12,6 @@ body {
   padding: 20px;
 }
 
-/* ===== Título principal ===== */
 h1 {
   text-align: center;
   color: #2c3e50;
@@ -24,14 +22,12 @@ h1 {
   display: inline-block;
 }
 
-/* Container central para o título */
 body > h1 {
   display: block;
   width: fit-content;
   margin: 0 auto 30px auto;
 }
 
-/* ===== Card de cada exercício ===== */
 div:has(> h2) {
   background-color: #fff;
   border-radius: 12px;
@@ -47,7 +43,6 @@ div:has(> h2):hover {
   transform: translateY(-2px);
 }
 
-/* ===== Títulos dos exercícios ===== */
 h2 {
   color: #2980b9;
   font-size: 1.15rem;
@@ -56,13 +51,11 @@ h2 {
   border-bottom: 2px solid #ebf0f4;
 }
 
-/* ===== Separadores (hr) ===== */
 hr {
   border: none;
   margin: 10px 0;
 }
 
-/* ===== Inputs ===== */
 input[type="number"],
 select {
   width: 100%;
@@ -75,7 +68,6 @@ select {
   background-color: #fafbfc;
   transition: border-color 0.25s ease, box-shadow 0.25s ease;
   outline: none;
-  -moz-appearance: textfield;
 }
 
 input[type="number"]::-webkit-outer-spin-button,
@@ -95,7 +87,6 @@ input[type="number"]::placeholder {
   font-style: italic;
 }
 
-/* ===== Select ===== */
 select {
   cursor: pointer;
   appearance: none;
@@ -105,7 +96,6 @@ select {
   padding-right: 36px;
 }
 
-/* ===== Botões ===== */
 button {
   width: 100%;
   padding: 11px 20px;
@@ -132,7 +122,6 @@ button:active {
   box-shadow: 0 2px 6px rgba(41, 128, 185, 0.25);
 }
 
-/* ===== Área de resultados ===== */
 div[id^="res"] {
   margin-top: 14px;
   padding: 14px 18px;
@@ -152,7 +141,6 @@ div[id^="res"]:empty {
   min-height: 0;
 }
 
-/* ===== Responsividade ===== */
 @media (max-width: 680px) {
   body {
     padding: 12px;
